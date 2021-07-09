@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+   {{>headLinks}}
+
+<body style="background-color: rgb(230, 253, 255);">
+  
+   {{>navbar}}
+
+    <!-- main header -->
+    <div  class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+               
+                <!-- right side div  -->
+                <div class="col-md-12 col-12 main_header_left align-items-center error_style">
+                   <figure>
+                       <img src="images/error.jpg" alt="error" class="imag-fluid" title="Ayus Dwivedi">
+                   </figure>
+    
+                    <p>Welcome to Weather Application</p>
+                    <h1>{{errorMsg}}</h1>
+                    <a href="/"><button>Back To Home</button></a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>      
+    
+    <!-- footer code  -->
+    {{>footer}}
+
+    {{>footLink}}
+</body>
+</html>
