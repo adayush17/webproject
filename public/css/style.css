@@ -297,9 +297,14 @@ sup {
         margin-top: -3rem !important;
     }
 
+    .main_header_left h1 {
+        font-size: 2.4rem;
+        margin: -1rem 0 2rem 0
+    }
+
     .about_right figure img{
-        margin-top: 3.5rem; 
-        height: 75%;
+        margin-top: 3.5rem !important; 
+        height: 75% !important;
     }
     
     .temp_form{
